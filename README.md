@@ -1,14 +1,14 @@
 # Finance Forecast & Variance Automation
 
-An end-to-end FP&A automation prototype: rolling forecasts, self-calibrating variance thresholds, and auto-drafted close commentary — built to demonstrate what automating the mechanical parts of monthly variance review looks like, without faking the parts that need human judgment.
+An end-to-end FP&A automation prototype: rolling forecasts, self-calibrating variance thresholds, and auto-drafted close commentary built to demonstrate what automating the mechanical parts of monthly variance review looks like, without faking the parts that need human judgment.
 
-**[Live dashboard](https://maitreyeetiwari5.github.io/FPA-Variance-Automation/)** — filter by business unit and line item to see the forecast, flagged variances, and drafted commentary update together.
+**[Live dashboard](https://maitreyeetiwari5.github.io/FPA-Variance-Automation/)** - filter by business unit and line item to see the forecast, flagged variances, and drafted commentary update together.
 
 ## Problem
 
 Monthly variance review doesn't scale by adding headcount. Reviewing budget-vs-actual across dozens of line items each month means either hours of manual scanning, or a single flat threshold that over-flags noisy categories (campaign-driven marketing spend) while missing real issues in stable ones (salaries, where even a small deviation matters).
 
-The mechanical parts — detecting what changed, judging materiality, drafting a first-pass explanation — are a good fit for automation. The judgment of *why* something changed is not, and this project doesn't pretend otherwise.
+The mechanical parts: detecting what changed, judging materiality, drafting a first-pass explanation are a good fit for automation. The judgment of *why* something changed is not, and this project doesn't pretend otherwise.
 
 ## Pipeline
 
