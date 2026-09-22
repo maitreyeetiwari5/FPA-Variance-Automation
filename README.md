@@ -2,7 +2,7 @@
 
 An end-to-end FP&A automation prototype: rolling forecasts, self-calibrating variance thresholds, and auto-drafted close commentary — built to demonstrate what automating the mechanical parts of monthly variance review looks like, without faking the parts that need human judgment.
 
-**[Live dashboard](https://claude.ai/artifact/1Upj4hjnNtZqG716DzrPRa)** — filter by business unit and line item to see the forecast, flagged variances, and drafted commentary update together.
+**[Live dashboard](https://maitreyeetiwari5.github.io/FPA-Variance-Automation/)** — filter by business unit and line item to see the forecast, flagged variances, and drafted commentary update together.
 
 ## Problem
 
