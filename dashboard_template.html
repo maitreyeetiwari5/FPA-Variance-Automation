@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Forecast &amp; Variance Control — FP&amp;A Automation Demo</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root {
+    --paper: #F7F8FA;
+    --paper-raised: #FFFFFF;
+    --ink: #152238;
+    --ink-soft: #4A5568;
+    --hairline: #D8DCE2;
+    --accent: #0F5257;
+    --good: #4C7A5E;
+    --good-bg: #E7EFE9;
+    --flag: #B3432B;
+    --flag-bg: #F6E9E4;
+    --pending: #9C7A1F;
+    --pending-bg: #F5EFDD;
+
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #12161C;
+      --paper-raised: #1A2029;
+      --ink: #E8ECF1;
+      --ink-soft: #A7B0BD;
+      --hairline: #2A3140;
+      --accent: #4FB3AE;
+      --good: #7FBF9A;
+      --good-bg: #1C2B22;
+      --flag: #E0836A;
+      --flag-bg: #2E1E19;
+      --pending: #D9B85C;
+      --pending-bg: #2E2916;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #12161C;
+    --paper-raised: #1A2029;
+    --ink: #E8ECF1;
+    --ink-soft: #A7B0BD;
+    --hairline: #2A3140;
+    --accent: #4FB3AE;
+    --good: #7FBF9A;
+    --good-bg: #1C2B22;
+    --flag: #E0836A;
+    --flag-bg: #2E1E19;
+    --pending: #D9B85C;
+    --pending-bg: #2E2916;
+  }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans', -apple-system, sans-serif;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 40px 24px 80px; }
+
+  header.letterhead {
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 20px;
+    margin-bottom: 28px;
+  }
+  header.letterhead .eyebrow {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin: 0 0 6px;
+  }
+  header.letterhead h1 {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-weight: 600;
+    font-size: 34px;
+    margin: 0 0 8px;
+    letter-spacing: -0.01em;
+  }
+  header.letterhead p.desc {
+    font-size: 15px;
+    color: var(--ink-soft);
+    max-width: 62ch;
+    margin: 0;
+  }
+
+  .stat-strip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--hairline);
+    border: 1px solid var(--hairline);
+    margin-bottom: 32px;
+  }
+  .stat {
+    background: var(--paper-raised);
+    padding: 16px 18px;
+  }
+  .stat .num {
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Source Serif 4', Georgia, serif;
+  }
+  .stat .label {
+    font-size: 12.5px;
+    color: var(--ink-soft);
+    margin-top: 2px;
+  }
+
+  section { margin-bottom: 36px; }
+  section h2 {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink-soft);
+    margin: 0 0 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--hairline);
+  }
+
+  .controls {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+  select {
+    font-family: inherit;
+    font-size: 14px;
+    padding: 8px 12px;
+    border: 1px solid var(--hairline);
+    border-radius: 3px;
+    background: var(--paper-raised);
+    color: var(--ink);
+  }
+
+  .chart-box {
+    background: var(--paper-raised);
+    border: 1px solid var(--hairline);
+    padding: 20px;
+    border-radius: 4px;
+  }
+  .chart-box canvas { max-height: 340px; }
+
+  .methodology {
+    font-size: 13.5px;
+    color: var(--ink-soft);
+    background: var(--paper-raised);
+    border: 1px solid var(--hairline);
+    border-radius: 4px;
+    padding: 16px 18px;
+  }
+  .methodology p { margin: 0 0 8px; }
+  .methodology p:last-child { margin-bottom: 0; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13.5px;
+    background: var(--paper-raised);
+    border: 1px solid var(--hairline);
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--hairline);
+    vertical-align: top;
+  }
+  th {
+    font-size: 11.5px;
+    text-transform: none;
+    color: var(--ink-soft);
+    font-weight: 600;
+    background: var(--paper);
+  }
+  tr:last-child td { border-bottom: none; }
+  .commentary-cell { max-width: 380px; }
+  .badge {
+    display: inline-block;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .badge.known { background: var(--good-bg); color: var(--good); }
+  .badge.pending { background: var(--pending-bg); color: var(--pending); }
+  .variance-pos { color: var(--flag); }
+  .variance-neg { color: var(--accent); }
+
+  .table-scroll { overflow-x: auto; }
+
+  footer {
+    margin-top: 48px;
+    padding-top: 16px;
+    border-top: 1px solid var(--hairline);
+    font-size: 12.5px;
+    color: var(--ink-soft);
+  }
+
+  @media (max-width: 640px) {
+    .stat-strip { grid-template-columns: repeat(2, 1fr); }
+    header.letterhead h1 { font-size: 27px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="letterhead">
+    <p class="eyebrow">FP&amp;A Automation — Portfolio Demo</p>
+    <h1>Forecast &amp; Variance Control</h1>
+    <p class="desc">Rolling forecast, calibrated variance thresholds, and auto-drafted commentary across 5 business units and 18 months of synthetic budget data.</p>
+  </header>
+
+  <div class="stat-strip" id="statStrip"></div>
+
+  <section>
+    <h2>Forecast vs. actual vs. budget</h2>
+    <div class="controls">
+      <select id="buSelect"></select>
+      <select id="liSelect"></select>
+    </div>
+    <div class="chart-box">
+      <canvas id="trendChart"></canvas>
+    </div>
+  </section>
+
+  <section>
+    <h2>Threshold calibration</h2>
+    <div class="methodology">
+      <p>Thresholds are set per line item, not flat across the board — a line item's own historical volatility sets the bar for what counts as unusual. They were calibrated using a robust statistic (median + 1.2× scaled MAD) rather than mean/standard deviation, since std is distorted by the very outlier months this is meant to catch.</p>
+      <p>The calibration was validated against 6 known scripted anomalies in the underlying data: the chosen threshold set catches all 6, while cutting the overall flag rate from an initial 34.8% (hardcoded materiality thresholds) down to the rate shown above.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Flagged variances &amp; commentary <span id="tableContext" style="font-weight: 400; text-transform: none; color: var(--ink-soft);"></span></h2>
+    <div class="table-scroll">
+      <table id="flagTable">
+        <thead>
+          <tr>
+            <th>Business unit</th>
+            <th>Line item</th>
+            <th>Month</th>
+            <th>Variance</th>
+            <th>Commentary (draft)</th>
+          </tr>
+        </thead>
+        <tbody id="flagTbody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    All figures are synthetic, generated for demonstration purposes. Built with a trailing 3-month moving-average forecast, MAD-calibrated variance thresholds, and an event-log lookup for commentary drivers — flags without a known driver are marked for analyst review rather than guessed.
+  </footer>
+
+</div>
+
+<script>
+const DATA = __DATA_JSON__;
+
+function pct(x) {
+  if (x === null || x === undefined || Number.isNaN(x)) return '—';
+  return (x * 100).toFixed(1) + '%';
+}
+function money(x) {
+  return '$' + Math.round(x).toLocaleString();
+}
+
+// Stat strip
+const s = DATA.summary;
+const stats = [
+  { num: pct(s.flag_rate), label: 'Flag rate (calibrated)' },
+  { num: s.mape.toFixed(1) + '%', label: 'Forecast MAPE' },
+  { num: s.events_caught + '/' + s.events_total, label: 'Known anomalies caught' },
+  { num: s.known_driver_count + '/' + s.flagged_rows, label: 'Flags with known driver' },
+];
+document.getElementById('statStrip').innerHTML = stats.map(st =>
+  `<div class="stat"><div class="num">${st.num}</div><div class="label">${st.label}</div></div>`
+).join('');
+
+// Populate selects
+const buSelect = document.getElementById('buSelect');
+const liSelect = document.getElementById('liSelect');
+DATA.business_units.forEach(bu => {
+  const o = document.createElement('option');
+  o.value = bu; o.textContent = bu;
+  buSelect.appendChild(o);
+});
+DATA.line_items.forEach(li => {
+  const o = document.createElement('option');
+  o.value = li; o.textContent = li;
+  liSelect.appendChild(o);
+});
+buSelect.value = 'Retail Sales';
+liSelect.value = 'Opex: Marketing';
+
+// Flag table — filtered to match whatever business unit / line item is
+// currently selected for the chart, so the two stay in sync.
+function renderTable() {
+  const tbody = document.getElementById('flagTbody');
+  const bu = buSelect.value, li = liSelect.value;
+  document.getElementById('tableContext').textContent = `— ${bu} / ${li}`;
+  const flags = DATA.flags
+    .filter(f => f.business_unit === bu && f.line_item === li)
+    .sort((a,b) => b.month.localeCompare(a.month));
+
+  if (flags.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="5" style="color: var(--ink-soft); font-style: italic;">
+      No flagged variances for ${bu} / ${li} in this period.</td></tr>`;
+    return;
+  }
+
+  tbody.innerHTML = flags.map(f => {
+    const vb = f.variance_vs_budget_pct;
+    const vClass = vb >= 0 ? 'variance-pos' : 'variance-neg';
+    const badge = f.has_known_driver
+      ? '<span class="badge known">Known driver</span>'
+      : '<span class="badge pending">Pending review</span>';
+    return `<tr>
+      <td>${f.business_unit}</td>
+      <td>${f.line_item}</td>
+      <td>${f.month}</td>
+      <td class="${vClass}">${pct(vb)}</td>
+      <td class="commentary-cell">${f.commentary} ${badge}</td>
+    </tr>`;
+  }).join('');
+}
+renderTable();
+
+// Chart — wrapped defensively so a CDN/library failure surfaces a visible
+// message instead of silently breaking (and can't take the table or
+// filters down with it, since they're rendered separately above).
+let chart;
+function renderChart() {
+  const chartBox = document.querySelector('.chart-box');
+  try {
+    if (typeof Chart === 'undefined') {
+      throw new Error('Chart.js failed to load from CDN');
+    }
+    const bu = buSelect.value, li = liSelect.value;
+    const rows = DATA.series.filter(r => r.business_unit === bu && r.line_item === li)
+                            .sort((a,b) => a.month.localeCompare(b.month));
+    const labels = rows.map(r => r.month);
+    const budget = rows.map(r => r.budget);
+    const actual = rows.map(r => r.actual);
+    const forecast = rows.map(r => r.forecast);
+
+    const canvas = document.getElementById('trendChart');
+    const ctx = canvas.getContext('2d');
+    if (chart) chart.destroy();
+
+    const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const gridColor = isDark ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.06)';
+    const tickColor = isDark ? '#A7B0BD' : '#4A5568';
+
+    chart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels,
+        datasets: [
+          { label: 'Budget', data: budget, borderColor: '#9C7A1F', borderDash: [4,3], pointRadius: 0, borderWidth: 1.5, tension: 0.15 },
+          { label: 'Actual', data: actual, borderColor: '#0F5257', pointRadius: 2, borderWidth: 2, tension: 0.15 },
+          { label: 'Forecast (3mo avg)', data: forecast, borderColor: '#B3432B', pointRadius: 0, borderWidth: 1.5, borderDash: [2,2], tension: 0.15 },
+        ]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { position: 'bottom', labels: { color: tickColor, boxWidth: 14, font: { size: 12 } } },
+          tooltip: {
+            callbacks: {
+              label: ctx => `${ctx.dataset.label}: ${money(ctx.raw)}`
+            }
+          }
+        },
+        scales: {
+          x: { grid: { color: gridColor }, ticks: { color: tickColor, font: { size: 11 } } },
+          y: { grid: { color: gridColor }, ticks: { color: tickColor, font: { size: 11 }, callback: v => '$' + (v/1000) + 'k' } },
+        }
+      }
+    });
+  } catch (err) {
+    chartBox.innerHTML = `<p style="color: var(--flag); font-size: 13.5px;">Chart failed to render (${err.message}). The data table below is unaffected.</p>`;
+    console.error(err);
+  }
+}
+buSelect.addEventListener('change', () => { renderChart(); renderTable(); });
+liSelect.addEventListener('change', () => { renderChart(); renderTable(); });
+renderChart();
+</script>
+</body>
+</html>

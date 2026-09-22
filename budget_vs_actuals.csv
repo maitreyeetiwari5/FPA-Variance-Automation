@@ -1,0 +1,541 @@
+business_unit,line_item,month,budget,actual
+Customer Support,COGS,2025-04,121000.0,120620.79
+Customer Support,COGS,2025-05,121968.0,127792.84
+Customer Support,COGS,2025-06,122943.74,116884.3
+Customer Support,COGS,2025-07,123927.29,127050.55
+Customer Support,COGS,2025-08,124918.71,121606.76
+Customer Support,COGS,2025-09,125918.06,120926.21
+Customer Support,COGS,2025-10,126925.41,126246.16
+Customer Support,COGS,2025-11,127940.81,121318.32
+Customer Support,COGS,2025-12,128964.34,125394.29
+Customer Support,COGS,2026-01,129996.05,122210.08
+Customer Support,COGS,2026-02,131036.02,143908.51
+Customer Support,COGS,2026-03,132084.31,132317.2
+Customer Support,COGS,2026-04,133140.98,128482.87
+Customer Support,COGS,2026-05,134206.11,135641.98
+Customer Support,COGS,2026-06,135279.76,134519.97
+Customer Support,COGS,2026-07,136362.0,134855.4
+Customer Support,COGS,2026-08,137452.89,141673.84
+Customer Support,COGS,2026-09,138552.52,143800.25
+Customer Support,Headcount Cost,2025-04,49500.0,48188.0
+Customer Support,Headcount Cost,2025-05,49797.0,50933.56
+Customer Support,Headcount Cost,2025-06,50095.78,48566.34
+Customer Support,Headcount Cost,2025-07,50396.36,46757.98
+Customer Support,Headcount Cost,2025-08,50698.73,47398.16
+Customer Support,Headcount Cost,2025-09,51002.93,51101.03
+Customer Support,Headcount Cost,2025-10,51308.94,51841.99
+Customer Support,Headcount Cost,2025-11,51616.8,49749.68
+Customer Support,Headcount Cost,2025-12,51926.5,53252.89
+Customer Support,Headcount Cost,2026-01,52238.06,48766.27
+Customer Support,Headcount Cost,2026-02,52551.49,52412.58
+Customer Support,Headcount Cost,2026-03,52866.8,50305.89
+Customer Support,Headcount Cost,2026-04,53184.0,51797.31
+Customer Support,Headcount Cost,2026-05,53503.1,53604.54
+Customer Support,Headcount Cost,2026-06,53824.12,51971.68
+Customer Support,Headcount Cost,2026-07,54147.06,53314.16
+Customer Support,Headcount Cost,2026-08,54471.95,56664.54
+Customer Support,Headcount Cost,2026-09,54798.78,53534.26
+Customer Support,Opex: Marketing,2025-04,33000.0,31034.02
+Customer Support,Opex: Marketing,2025-05,33165.0,30963.75
+Customer Support,Opex: Marketing,2025-06,33330.82,32622.29
+Customer Support,Opex: Marketing,2025-07,33497.48,22601.15
+Customer Support,Opex: Marketing,2025-08,33664.97,26686.94
+Customer Support,Opex: Marketing,2025-09,33833.29,41446.84
+Customer Support,Opex: Marketing,2025-10,34002.46,43072.45
+Customer Support,Opex: Marketing,2025-11,34172.47,33579.39
+Customer Support,Opex: Marketing,2025-12,34343.33,38000.33
+Customer Support,Opex: Marketing,2026-01,34515.05,36816.77
+Customer Support,Opex: Marketing,2026-02,34687.62,51401.24
+Customer Support,Opex: Marketing,2026-03,34861.06,41412.72
+Customer Support,Opex: Marketing,2026-04,35035.37,35063.83
+Customer Support,Opex: Marketing,2026-05,35210.54,30867.99
+Customer Support,Opex: Marketing,2026-06,35386.6,27567.33
+Customer Support,Opex: Marketing,2026-07,35563.53,37360.18
+Customer Support,Opex: Marketing,2026-08,35741.35,32401.23
+Customer Support,Opex: Marketing,2026-09,35920.05,28975.34
+Customer Support,Opex: Other,2025-04,13750.0,12992.87
+Customer Support,Opex: Other,2025-05,13791.25,13257.36
+Customer Support,Opex: Other,2025-06,13832.62,13151.51
+Customer Support,Opex: Other,2025-07,13874.12,12814.15
+Customer Support,Opex: Other,2025-08,13915.74,14122.42
+Customer Support,Opex: Other,2025-09,13957.49,12937.27
+Customer Support,Opex: Other,2025-10,13999.36,14517.98
+Customer Support,Opex: Other,2025-11,14041.36,14111.23
+Customer Support,Opex: Other,2025-12,14083.49,13887.8
+Customer Support,Opex: Other,2026-01,14125.74,12984.99
+Customer Support,Opex: Other,2026-02,14168.11,13492.62
+Customer Support,Opex: Other,2026-03,14210.62,15426.18
+Customer Support,Opex: Other,2026-04,14253.25,15109.75
+Customer Support,Opex: Other,2026-05,14296.01,13041.46
+Customer Support,Opex: Other,2026-06,14338.9,14624.72
+Customer Support,Opex: Other,2026-07,14381.91,15606.37
+Customer Support,Opex: Other,2026-08,14425.06,12161.18
+Customer Support,Opex: Other,2026-09,14468.34,15399.17
+Customer Support,Opex: Salaries,2025-04,82500.0,80074.73
+Customer Support,Opex: Salaries,2025-05,82830.0,79314.16
+Customer Support,Opex: Salaries,2025-06,83161.32,86538.85
+Customer Support,Opex: Salaries,2025-07,83493.97,84867.37
+Customer Support,Opex: Salaries,2025-08,83827.94,82969.61
+Customer Support,Opex: Salaries,2025-09,84163.25,87058.33
+Customer Support,Opex: Salaries,2025-10,84499.91,83851.04
+Customer Support,Opex: Salaries,2025-11,84837.91,81797.44
+Customer Support,Opex: Salaries,2025-12,85177.26,88217.55
+Customer Support,Opex: Salaries,2026-01,85517.97,106897.46
+Customer Support,Opex: Salaries,2026-02,85860.04,82329.7
+Customer Support,Opex: Salaries,2026-03,86203.48,84849.21
+Customer Support,Opex: Salaries,2026-04,86548.29,83409.31
+Customer Support,Opex: Salaries,2026-05,86894.49,82420.81
+Customer Support,Opex: Salaries,2026-06,87242.06,88793.69
+Customer Support,Opex: Salaries,2026-07,87591.03,91732.55
+Customer Support,Opex: Salaries,2026-08,87941.4,83372.22
+Customer Support,Opex: Salaries,2026-09,88293.16,88901.42
+Customer Support,Revenue,2025-04,275000.0,270554.79
+Customer Support,Revenue,2025-05,277750.0,289707.84
+Customer Support,Revenue,2025-06,280527.5,305814.65
+Customer Support,Revenue,2025-07,283332.78,284592.38
+Customer Support,Revenue,2025-08,286166.1,314129.38
+Customer Support,Revenue,2025-09,289027.76,265094.51
+Customer Support,Revenue,2025-10,291918.04,262083.16
+Customer Support,Revenue,2025-11,294837.22,293854.57
+Customer Support,Revenue,2025-12,297785.59,304647.74
+Customer Support,Revenue,2026-01,300763.45,300173.45
+Customer Support,Revenue,2026-02,303771.08,266089.34
+Customer Support,Revenue,2026-03,306808.8,305168.23
+Customer Support,Revenue,2026-04,309876.88,285623.39
+Customer Support,Revenue,2026-05,312975.65,325551.12
+Customer Support,Revenue,2026-06,316105.41,323058.43
+Customer Support,Revenue,2026-07,319266.46,301262.14
+Customer Support,Revenue,2026-08,322459.13,312517.06
+Customer Support,Revenue,2026-09,325683.72,304985.6
+Digital Products,COGS,2025-04,187000.0,177738.49
+Digital Products,COGS,2025-05,188496.0,183158.76
+Digital Products,COGS,2025-06,190003.97,190950.68
+Digital Products,COGS,2025-07,191524.0,186702.62
+Digital Products,COGS,2025-08,193056.19,178087.93
+Digital Products,COGS,2025-09,194600.64,195267.76
+Digital Products,COGS,2025-10,196157.45,185738.51
+Digital Products,COGS,2025-11,197726.71,202408.8
+Digital Products,COGS,2025-12,199308.52,190146.07
+Digital Products,COGS,2026-01,200902.99,216472.31
+Digital Products,COGS,2026-02,202510.21,194579.37
+Digital Products,COGS,2026-03,204130.29,200843.17
+Digital Products,COGS,2026-04,205763.34,214132.94
+Digital Products,COGS,2026-05,207409.44,194644.8
+Digital Products,COGS,2026-06,209068.72,211446.46
+Digital Products,COGS,2026-07,210741.27,224514.71
+Digital Products,COGS,2026-08,212427.2,195353.54
+Digital Products,COGS,2026-09,214126.62,216103.37
+Digital Products,Headcount Cost,2025-04,76500.0,76678.12
+Digital Products,Headcount Cost,2025-05,76959.0,73440.53
+Digital Products,Headcount Cost,2025-06,77420.75,78528.76
+Digital Products,Headcount Cost,2025-07,77885.28,79632.35
+Digital Products,Headcount Cost,2025-08,78352.59,81746.99
+Digital Products,Headcount Cost,2025-09,78822.71,82145.25
+Digital Products,Headcount Cost,2025-10,79295.64,74925.91
+Digital Products,Headcount Cost,2025-11,79771.42,76778.95
+Digital Products,Headcount Cost,2025-12,80250.04,81903.31
+Digital Products,Headcount Cost,2026-01,80731.54,82390.69
+Digital Products,Headcount Cost,2026-02,81215.93,82889.14
+Digital Products,Headcount Cost,2026-03,81703.23,94294.45
+Digital Products,Headcount Cost,2026-04,82193.45,84070.39
+Digital Products,Headcount Cost,2026-05,82686.61,86442.45
+Digital Products,Headcount Cost,2026-06,83182.73,86356.99
+Digital Products,Headcount Cost,2026-07,83681.83,85862.21
+Digital Products,Headcount Cost,2026-08,84183.92,83122.29
+Digital Products,Headcount Cost,2026-09,84689.02,87260.07
+Digital Products,Opex: Marketing,2025-04,51000.0,54008.1
+Digital Products,Opex: Marketing,2025-05,51255.0,58290.95
+Digital Products,Opex: Marketing,2025-06,51511.27,42983.96
+Digital Products,Opex: Marketing,2025-07,51768.83,42550.43
+Digital Products,Opex: Marketing,2025-08,52027.68,57141.54
+Digital Products,Opex: Marketing,2025-09,52287.81,55662.87
+Digital Products,Opex: Marketing,2025-10,52549.25,55574.72
+Digital Products,Opex: Marketing,2025-11,52812.0,56612.73
+Digital Products,Opex: Marketing,2025-12,53076.06,48723.63
+Digital Products,Opex: Marketing,2026-01,53341.44,56266.58
+Digital Products,Opex: Marketing,2026-02,53608.15,57036.97
+Digital Products,Opex: Marketing,2026-03,53876.19,49180.73
+Digital Products,Opex: Marketing,2026-04,54145.57,70381.99
+Digital Products,Opex: Marketing,2026-05,54416.3,59372.26
+Digital Products,Opex: Marketing,2026-06,54688.38,46009.58
+Digital Products,Opex: Marketing,2026-07,54961.82,61473.86
+Digital Products,Opex: Marketing,2026-08,55236.63,48265.64
+Digital Products,Opex: Marketing,2026-09,55512.81,63177.06
+Digital Products,Opex: Other,2025-04,21250.0,22792.04
+Digital Products,Opex: Other,2025-05,21313.75,19699.96
+Digital Products,Opex: Other,2025-06,21377.69,19302.15
+Digital Products,Opex: Other,2025-07,21441.82,22690.75
+Digital Products,Opex: Other,2025-08,21506.15,21240.63
+Digital Products,Opex: Other,2025-09,21570.67,23326.52
+Digital Products,Opex: Other,2025-10,21635.38,22875.6
+Digital Products,Opex: Other,2025-11,21700.29,21759.25
+Digital Products,Opex: Other,2025-12,21765.39,20139.96
+Digital Products,Opex: Other,2026-01,21830.68,18741.98
+Digital Products,Opex: Other,2026-02,21896.18,21137.44
+Digital Products,Opex: Other,2026-03,21961.86,24062.29
+Digital Products,Opex: Other,2026-04,22027.75,22719.63
+Digital Products,Opex: Other,2026-05,22093.83,19562.46
+Digital Products,Opex: Other,2026-06,22160.11,22765.49
+Digital Products,Opex: Other,2026-07,22226.59,23305.29
+Digital Products,Opex: Other,2026-08,22293.27,20545.8
+Digital Products,Opex: Other,2026-09,22360.15,22927.49
+Digital Products,Opex: Salaries,2025-04,127500.0,130656.63
+Digital Products,Opex: Salaries,2025-05,128010.0,123578.23
+Digital Products,Opex: Salaries,2025-06,128522.04,130951.27
+Digital Products,Opex: Salaries,2025-07,129036.13,129343.68
+Digital Products,Opex: Salaries,2025-08,129552.27,131451.74
+Digital Products,Opex: Salaries,2025-09,130070.48,136171.28
+Digital Products,Opex: Salaries,2025-10,130590.76,128323.49
+Digital Products,Opex: Salaries,2025-11,131113.13,126837.25
+Digital Products,Opex: Salaries,2025-12,131637.58,126808.4
+Digital Products,Opex: Salaries,2026-01,132164.13,127607.86
+Digital Products,Opex: Salaries,2026-02,132692.79,131058.93
+Digital Products,Opex: Salaries,2026-03,133223.56,133254.81
+Digital Products,Opex: Salaries,2026-04,133756.45,133529.16
+Digital Products,Opex: Salaries,2026-05,134291.48,136281.07
+Digital Products,Opex: Salaries,2026-06,134828.64,133532.95
+Digital Products,Opex: Salaries,2026-07,135367.96,139917.14
+Digital Products,Opex: Salaries,2026-08,135909.43,133471.25
+Digital Products,Opex: Salaries,2026-09,136453.07,146223.8
+Digital Products,Revenue,2025-04,425000.0,431567.53
+Digital Products,Revenue,2025-05,429250.0,427332.65
+Digital Products,Revenue,2025-06,433542.5,383630.37
+Digital Products,Revenue,2025-07,437877.93,437181.33
+Digital Products,Revenue,2025-08,442256.7,443854.94
+Digital Products,Revenue,2025-09,446679.27,512696.02
+Digital Products,Revenue,2025-10,451146.06,445939.09
+Digital Products,Revenue,2025-11,455657.52,463901.66
+Digital Products,Revenue,2025-12,460214.1,459255.61
+Digital Products,Revenue,2026-01,464816.24,432223.01
+Digital Products,Revenue,2026-02,469464.4,375571.52
+Digital Products,Revenue,2026-03,474159.05,495551.2
+Digital Products,Revenue,2026-04,478900.64,501630.18
+Digital Products,Revenue,2026-05,483689.64,457297.97
+Digital Products,Revenue,2026-06,488526.54,529644.68
+Digital Products,Revenue,2026-07,493411.81,451910.41
+Digital Products,Revenue,2026-08,498345.92,515893.39
+Digital Products,Revenue,2026-09,503329.38,569480.62
+Enterprise Services,COGS,2025-04,242000.0,267941.72
+Enterprise Services,COGS,2025-05,243936.0,251667.78
+Enterprise Services,COGS,2025-06,245887.49,220989.63
+Enterprise Services,COGS,2025-07,247854.59,250165.27
+Enterprise Services,COGS,2025-08,249837.42,241570.47
+Enterprise Services,COGS,2025-09,251836.12,262569.8
+Enterprise Services,COGS,2025-10,253850.81,243791.71
+Enterprise Services,COGS,2025-11,255881.62,254413.67
+Enterprise Services,COGS,2025-12,257928.67,264441.21
+Enterprise Services,COGS,2026-01,259992.1,271246.58
+Enterprise Services,COGS,2026-02,262072.04,246343.83
+Enterprise Services,COGS,2026-03,264168.61,259750.38
+Enterprise Services,COGS,2026-04,266281.96,259958.5
+Enterprise Services,COGS,2026-05,268412.22,259644.14
+Enterprise Services,COGS,2026-06,270559.52,294442.54
+Enterprise Services,COGS,2026-07,272723.99,278246.4
+Enterprise Services,COGS,2026-08,274905.79,257574.57
+Enterprise Services,COGS,2026-09,277105.03,289822.24
+Enterprise Services,Headcount Cost,2025-04,99000.0,104059.55
+Enterprise Services,Headcount Cost,2025-05,99594.0,97237.32
+Enterprise Services,Headcount Cost,2025-06,100191.56,102384.15
+Enterprise Services,Headcount Cost,2025-07,100792.71,99977.53
+Enterprise Services,Headcount Cost,2025-08,101397.47,100514.58
+Enterprise Services,Headcount Cost,2025-09,102005.85,106489.12
+Enterprise Services,Headcount Cost,2025-10,102617.89,106005.99
+Enterprise Services,Headcount Cost,2025-11,103233.6,106592.86
+Enterprise Services,Headcount Cost,2025-12,103853.0,109276.11
+Enterprise Services,Headcount Cost,2026-01,104476.12,104563.89
+Enterprise Services,Headcount Cost,2026-02,105102.97,107969.98
+Enterprise Services,Headcount Cost,2026-03,105733.59,104421.37
+Enterprise Services,Headcount Cost,2026-04,106367.99,79775.99
+Enterprise Services,Headcount Cost,2026-05,107006.2,106449.16
+Enterprise Services,Headcount Cost,2026-06,107648.24,108065.9
+Enterprise Services,Headcount Cost,2026-07,108294.13,110872.21
+Enterprise Services,Headcount Cost,2026-08,108943.89,105378.29
+Enterprise Services,Headcount Cost,2026-09,109597.56,118770.38
+Enterprise Services,Opex: Marketing,2025-04,66000.0,88329.35
+Enterprise Services,Opex: Marketing,2025-05,66330.0,77929.11
+Enterprise Services,Opex: Marketing,2025-06,66661.65,52802.33
+Enterprise Services,Opex: Marketing,2025-07,66994.96,63468.67
+Enterprise Services,Opex: Marketing,2025-08,67329.93,81471.69
+Enterprise Services,Opex: Marketing,2025-09,67666.58,61837.08
+Enterprise Services,Opex: Marketing,2025-10,68004.92,73892.3
+Enterprise Services,Opex: Marketing,2025-11,68344.94,77653.19
+Enterprise Services,Opex: Marketing,2025-12,68686.66,60510.23
+Enterprise Services,Opex: Marketing,2026-01,69030.1,69794.34
+Enterprise Services,Opex: Marketing,2026-02,69375.25,37033.19
+Enterprise Services,Opex: Marketing,2026-03,69722.12,60403.19
+Enterprise Services,Opex: Marketing,2026-04,70070.74,68817.5
+Enterprise Services,Opex: Marketing,2026-05,70421.09,58648.97
+Enterprise Services,Opex: Marketing,2026-06,70773.19,89518.3
+Enterprise Services,Opex: Marketing,2026-07,71127.06,57291.34
+Enterprise Services,Opex: Marketing,2026-08,71482.7,68194.01
+Enterprise Services,Opex: Marketing,2026-09,71840.11,74685.77
+Enterprise Services,Opex: Other,2025-04,27500.0,28547.73
+Enterprise Services,Opex: Other,2025-05,27582.5,26140.76
+Enterprise Services,Opex: Other,2025-06,27665.25,27366.12
+Enterprise Services,Opex: Other,2025-07,27748.24,26657.73
+Enterprise Services,Opex: Other,2025-08,27831.49,26469.51
+Enterprise Services,Opex: Other,2025-09,27914.98,30565.8
+Enterprise Services,Opex: Other,2025-10,27998.73,29278.31
+Enterprise Services,Opex: Other,2025-11,28082.72,26417.67
+Enterprise Services,Opex: Other,2025-12,28166.97,30982.54
+Enterprise Services,Opex: Other,2026-01,28251.47,29402.15
+Enterprise Services,Opex: Other,2026-02,28336.23,30922.93
+Enterprise Services,Opex: Other,2026-03,28421.24,30494.93
+Enterprise Services,Opex: Other,2026-04,28506.5,26428.39
+Enterprise Services,Opex: Other,2026-05,28592.02,27276.27
+Enterprise Services,Opex: Other,2026-06,28677.8,31107.65
+Enterprise Services,Opex: Other,2026-07,28763.83,30807.13
+Enterprise Services,Opex: Other,2026-08,28850.12,29078.32
+Enterprise Services,Opex: Other,2026-09,28936.67,29565.54
+Enterprise Services,Opex: Salaries,2025-04,165000.0,170484.3
+Enterprise Services,Opex: Salaries,2025-05,165660.0,156867.45
+Enterprise Services,Opex: Salaries,2025-06,166322.64,170463.23
+Enterprise Services,Opex: Salaries,2025-07,166987.93,165369.32
+Enterprise Services,Opex: Salaries,2025-08,167655.88,161042.65
+Enterprise Services,Opex: Salaries,2025-09,168326.51,168976.77
+Enterprise Services,Opex: Salaries,2025-10,168999.81,168319.05
+Enterprise Services,Opex: Salaries,2025-11,169675.81,164923.78
+Enterprise Services,Opex: Salaries,2025-12,170354.51,169007.7
+Enterprise Services,Opex: Salaries,2026-01,171035.93,167348.5
+Enterprise Services,Opex: Salaries,2026-02,171720.08,170587.67
+Enterprise Services,Opex: Salaries,2026-03,172406.96,174107.56
+Enterprise Services,Opex: Salaries,2026-04,173096.58,179601.64
+Enterprise Services,Opex: Salaries,2026-05,173788.97,165597.52
+Enterprise Services,Opex: Salaries,2026-06,174484.13,183904.7
+Enterprise Services,Opex: Salaries,2026-07,175182.06,163171.12
+Enterprise Services,Opex: Salaries,2026-08,175882.79,173323.07
+Enterprise Services,Opex: Salaries,2026-09,176586.32,177937.12
+Enterprise Services,Revenue,2025-04,550000.0,524496.77
+Enterprise Services,Revenue,2025-05,555500.0,547606.84
+Enterprise Services,Revenue,2025-06,561055.0,544716.06
+Enterprise Services,Revenue,2025-07,566665.55,569449.27
+Enterprise Services,Revenue,2025-08,572332.21,651817.42
+Enterprise Services,Revenue,2025-09,578055.53,513292.55
+Enterprise Services,Revenue,2025-10,583836.08,607875.89
+Enterprise Services,Revenue,2025-11,589674.44,532615.8
+Enterprise Services,Revenue,2025-12,595571.19,578707.05
+Enterprise Services,Revenue,2026-01,601526.9,640828.88
+Enterprise Services,Revenue,2026-02,607542.17,609885.34
+Enterprise Services,Revenue,2026-03,613617.59,573938.2
+Enterprise Services,Revenue,2026-04,619753.77,593155.04
+Enterprise Services,Revenue,2026-05,625951.3,651475.01
+Enterprise Services,Revenue,2026-06,632210.82,604506.08
+Enterprise Services,Revenue,2026-07,638532.93,646825.88
+Enterprise Services,Revenue,2026-08,644918.25,646681.66
+Enterprise Services,Revenue,2026-09,651367.44,625901.56
+Logistics,COGS,2025-04,154000.0,155886.24
+Logistics,COGS,2025-05,155232.0,151297.31
+Logistics,COGS,2025-06,156473.86,152788.6
+Logistics,COGS,2025-07,157725.65,159555.66
+Logistics,COGS,2025-08,158987.45,147476.09
+Logistics,COGS,2025-09,160259.35,148981.39
+Logistics,COGS,2025-10,161541.43,155738.5
+Logistics,COGS,2025-11,162833.76,161095.94
+Logistics,COGS,2025-12,164136.43,166687.99
+Logistics,COGS,2026-01,165449.52,177654.37
+Logistics,COGS,2026-02,166773.12,173924.84
+Logistics,COGS,2026-03,168107.3,166762.96
+Logistics,COGS,2026-04,169452.16,169291.04
+Logistics,COGS,2026-05,170807.78,162245.79
+Logistics,COGS,2026-06,172174.24,172014.86
+Logistics,COGS,2026-07,173551.63,171046.77
+Logistics,COGS,2026-08,174940.05,177762.87
+Logistics,COGS,2026-09,176339.57,169045.89
+Logistics,Headcount Cost,2025-04,63000.0,63837.43
+Logistics,Headcount Cost,2025-05,63378.0,61480.5
+Logistics,Headcount Cost,2025-06,63758.27,67714.22
+Logistics,Headcount Cost,2025-07,64140.82,64437.6
+Logistics,Headcount Cost,2025-08,64525.66,67569.46
+Logistics,Headcount Cost,2025-09,64912.82,65088.13
+Logistics,Headcount Cost,2025-10,65302.29,70685.16
+Logistics,Headcount Cost,2025-11,65694.11,70306.73
+Logistics,Headcount Cost,2025-12,66088.27,65430.13
+Logistics,Headcount Cost,2026-01,66484.8,69068.59
+Logistics,Headcount Cost,2026-02,66883.71,68610.32
+Logistics,Headcount Cost,2026-03,67285.01,70968.55
+Logistics,Headcount Cost,2026-04,67688.72,65076.15
+Logistics,Headcount Cost,2026-05,68094.85,69963.52
+Logistics,Headcount Cost,2026-06,68503.42,71403.65
+Logistics,Headcount Cost,2026-07,68914.44,64066.34
+Logistics,Headcount Cost,2026-08,69327.93,66046.62
+Logistics,Headcount Cost,2026-09,69743.9,64054.94
+Logistics,Opex: Marketing,2025-04,42000.0,46111.88
+Logistics,Opex: Marketing,2025-05,42210.0,52758.74
+Logistics,Opex: Marketing,2025-06,42421.05,42577.41
+Logistics,Opex: Marketing,2025-07,42633.16,46054.75
+Logistics,Opex: Marketing,2025-08,42846.32,48138.77
+Logistics,Opex: Marketing,2025-09,43060.55,41330.25
+Logistics,Opex: Marketing,2025-10,43275.86,45596.04
+Logistics,Opex: Marketing,2025-11,43492.23,44444.23
+Logistics,Opex: Marketing,2025-12,43709.7,45224.3
+Logistics,Opex: Marketing,2026-01,43928.24,39713.26
+Logistics,Opex: Marketing,2026-02,44147.89,45193.15
+Logistics,Opex: Marketing,2026-03,44368.62,48570.32
+Logistics,Opex: Marketing,2026-04,44590.47,55188.35
+Logistics,Opex: Marketing,2026-05,44813.42,52157.92
+Logistics,Opex: Marketing,2026-06,45037.49,60484.33
+Logistics,Opex: Marketing,2026-07,45262.67,40958.1
+Logistics,Opex: Marketing,2026-08,45488.99,52350.92
+Logistics,Opex: Marketing,2026-09,45716.43,47888.02
+Logistics,Opex: Other,2025-04,17500.0,14677.01
+Logistics,Opex: Other,2025-05,17552.5,20104.41
+Logistics,Opex: Other,2025-06,17605.16,17579.56
+Logistics,Opex: Other,2025-07,17657.97,20020.29
+Logistics,Opex: Other,2025-08,17710.95,15064.17
+Logistics,Opex: Other,2025-09,17764.08,28422.53
+Logistics,Opex: Other,2025-10,17817.37,18004.89
+Logistics,Opex: Other,2025-11,17870.82,18133.49
+Logistics,Opex: Other,2025-12,17924.44,17296.96
+Logistics,Opex: Other,2026-01,17978.21,19277.76
+Logistics,Opex: Other,2026-02,18032.14,16287.32
+Logistics,Opex: Other,2026-03,18086.24,18009.59
+Logistics,Opex: Other,2026-04,18140.5,18540.13
+Logistics,Opex: Other,2026-05,18194.92,19312.89
+Logistics,Opex: Other,2026-06,18249.51,19730.66
+Logistics,Opex: Other,2026-07,18304.25,16428.72
+Logistics,Opex: Other,2026-08,18359.17,15726.25
+Logistics,Opex: Other,2026-09,18414.24,20951.13
+Logistics,Opex: Salaries,2025-04,105000.0,110847.88
+Logistics,Opex: Salaries,2025-05,105420.0,101809.48
+Logistics,Opex: Salaries,2025-06,105841.68,102116.94
+Logistics,Opex: Salaries,2025-07,106265.05,103291.56
+Logistics,Opex: Salaries,2025-08,106690.11,98825.25
+Logistics,Opex: Salaries,2025-09,107116.87,104356.18
+Logistics,Opex: Salaries,2025-10,107545.33,104020.65
+Logistics,Opex: Salaries,2025-11,107975.52,107382.93
+Logistics,Opex: Salaries,2025-12,108407.42,108434.81
+Logistics,Opex: Salaries,2026-01,108841.05,113878.77
+Logistics,Opex: Salaries,2026-02,109276.41,111299.42
+Logistics,Opex: Salaries,2026-03,109713.52,106717.56
+Logistics,Opex: Salaries,2026-04,110152.37,106081.97
+Logistics,Opex: Salaries,2026-05,110592.98,111119.14
+Logistics,Opex: Salaries,2026-06,111035.35,105527.22
+Logistics,Opex: Salaries,2026-07,111479.49,116489.8
+Logistics,Opex: Salaries,2026-08,111925.41,114766.44
+Logistics,Opex: Salaries,2026-09,112373.11,109667.7
+Logistics,Revenue,2025-04,350000.0,328873.63
+Logistics,Revenue,2025-05,353500.0,327747.06
+Logistics,Revenue,2025-06,357035.0,381844.17
+Logistics,Revenue,2025-07,360605.35,377734.02
+Logistics,Revenue,2025-08,364211.4,377850.1
+Logistics,Revenue,2025-09,367853.52,381721.86
+Logistics,Revenue,2025-10,371532.05,371259.05
+Logistics,Revenue,2025-11,375247.37,355045.83
+Logistics,Revenue,2025-12,378999.85,380723.64
+Logistics,Revenue,2026-01,382789.85,367237.21
+Logistics,Revenue,2026-02,386617.74,409237.66
+Logistics,Revenue,2026-03,390483.92,387038.51
+Logistics,Revenue,2026-04,394388.76,374854.75
+Logistics,Revenue,2026-05,398332.65,390651.54
+Logistics,Revenue,2026-06,402315.97,412283.71
+Logistics,Revenue,2026-07,406339.13,392595.33
+Logistics,Revenue,2026-08,410402.53,390156.05
+Logistics,Revenue,2026-09,414506.55,420567.15
+Retail Sales,COGS,2025-04,286000.0,273015.26
+Retail Sales,COGS,2025-05,288288.0,267930.49
+Retail Sales,COGS,2025-06,290594.3,311889.76
+Retail Sales,COGS,2025-07,292919.06,289612.35
+Retail Sales,COGS,2025-08,295262.41,296259.34
+Retail Sales,COGS,2025-09,297624.51,276422.51
+Retail Sales,COGS,2025-10,300005.51,291839.62
+Retail Sales,COGS,2025-11,302405.55,304082.73
+Retail Sales,COGS,2025-12,304824.79,287282.23
+Retail Sales,COGS,2026-01,307263.39,313035.31
+Retail Sales,COGS,2026-02,309721.5,300419.96
+Retail Sales,COGS,2026-03,312199.27,307645.94
+Retail Sales,COGS,2026-04,314696.87,305229.11
+Retail Sales,COGS,2026-05,317214.44,346592.91
+Retail Sales,COGS,2026-06,319752.16,319536.37
+Retail Sales,COGS,2026-07,322310.17,305264.62
+Retail Sales,COGS,2026-08,324888.66,338250.43
+Retail Sales,COGS,2026-09,327487.76,307497.2
+Retail Sales,Headcount Cost,2025-04,117000.0,117454.32
+Retail Sales,Headcount Cost,2025-05,117702.0,122262.46
+Retail Sales,Headcount Cost,2025-06,118408.21,115083.06
+Retail Sales,Headcount Cost,2025-07,119118.66,117557.43
+Retail Sales,Headcount Cost,2025-08,119833.37,117953.87
+Retail Sales,Headcount Cost,2025-09,120552.37,113495.17
+Retail Sales,Headcount Cost,2025-10,121275.69,122712.18
+Retail Sales,Headcount Cost,2025-11,122003.34,123277.33
+Retail Sales,Headcount Cost,2025-12,122735.36,122760.47
+Retail Sales,Headcount Cost,2026-01,123471.77,122313.18
+Retail Sales,Headcount Cost,2026-02,124212.6,117180.33
+Retail Sales,Headcount Cost,2026-03,124957.88,122855.36
+Retail Sales,Headcount Cost,2026-04,125707.63,123984.35
+Retail Sales,Headcount Cost,2026-05,126461.87,122403.57
+Retail Sales,Headcount Cost,2026-06,127220.64,126399.89
+Retail Sales,Headcount Cost,2026-07,127983.97,130052.45
+Retail Sales,Headcount Cost,2026-08,128751.87,138465.87
+Retail Sales,Headcount Cost,2026-09,129524.38,130428.87
+Retail Sales,Opex: Marketing,2025-04,78000.0,82003.7
+Retail Sales,Opex: Marketing,2025-05,78390.0,56915.02
+Retail Sales,Opex: Marketing,2025-06,78781.95,64662.03
+Retail Sales,Opex: Marketing,2025-07,79175.86,83097.38
+Retail Sales,Opex: Marketing,2025-08,79571.74,89977.33
+Retail Sales,Opex: Marketing,2025-09,79969.6,83624.63
+Retail Sales,Opex: Marketing,2025-10,80369.45,80582.65
+Retail Sales,Opex: Marketing,2025-11,80771.29,117118.37
+Retail Sales,Opex: Marketing,2025-12,81175.15,64795.77
+Retail Sales,Opex: Marketing,2026-01,81581.03,74403.8
+Retail Sales,Opex: Marketing,2026-02,81988.93,77963.62
+Retail Sales,Opex: Marketing,2026-03,82398.87,97112.7
+Retail Sales,Opex: Marketing,2026-04,82810.87,88735.39
+Retail Sales,Opex: Marketing,2026-05,83224.92,62880.09
+Retail Sales,Opex: Marketing,2026-06,83641.05,108733.36
+Retail Sales,Opex: Marketing,2026-07,84059.25,80884.98
+Retail Sales,Opex: Marketing,2026-08,84479.55,77591.23
+Retail Sales,Opex: Marketing,2026-09,84901.95,94389.86
+Retail Sales,Opex: Other,2025-04,32500.0,32708.57
+Retail Sales,Opex: Other,2025-05,32597.5,38023.82
+Retail Sales,Opex: Other,2025-06,32695.29,24456.91
+Retail Sales,Opex: Other,2025-07,32793.38,35816.61
+Retail Sales,Opex: Other,2025-08,32891.76,33506.99
+Retail Sales,Opex: Other,2025-09,32990.43,32333.9
+Retail Sales,Opex: Other,2025-10,33089.41,33723.93
+Retail Sales,Opex: Other,2025-11,33188.67,26924.08
+Retail Sales,Opex: Other,2025-12,33288.24,32889.87
+Retail Sales,Opex: Other,2026-01,33388.1,34914.32
+Retail Sales,Opex: Other,2026-02,33488.27,38772.36
+Retail Sales,Opex: Other,2026-03,33588.73,32183.82
+Retail Sales,Opex: Other,2026-04,33689.5,31302.62
+Retail Sales,Opex: Other,2026-05,33790.57,32433.01
+Retail Sales,Opex: Other,2026-06,33891.94,37333.33
+Retail Sales,Opex: Other,2026-07,33993.62,35451.1
+Retail Sales,Opex: Other,2026-08,34095.6,32630.3
+Retail Sales,Opex: Other,2026-09,34197.88,36295.13
+Retail Sales,Opex: Salaries,2025-04,195000.0,199081.35
+Retail Sales,Opex: Salaries,2025-05,195780.0,199291.98
+Retail Sales,Opex: Salaries,2025-06,196563.12,189648.71
+Retail Sales,Opex: Salaries,2025-07,197349.37,193545.19
+Retail Sales,Opex: Salaries,2025-08,198138.77,198126.47
+Retail Sales,Opex: Salaries,2025-09,198931.33,202764.01
+Retail Sales,Opex: Salaries,2025-10,199727.05,194858.66
+Retail Sales,Opex: Salaries,2025-11,200525.96,197403.82
+Retail Sales,Opex: Salaries,2025-12,201328.06,192632.69
+Retail Sales,Opex: Salaries,2026-01,202133.37,192858.24
+Retail Sales,Opex: Salaries,2026-02,202941.91,205859.36
+Retail Sales,Opex: Salaries,2026-03,203753.68,210006.31
+Retail Sales,Opex: Salaries,2026-04,204568.69,202081.07
+Retail Sales,Opex: Salaries,2026-05,205386.97,209516.47
+Retail Sales,Opex: Salaries,2026-06,206208.51,206383.6
+Retail Sales,Opex: Salaries,2026-07,207033.35,200956.17
+Retail Sales,Opex: Salaries,2026-08,207861.48,208036.47
+Retail Sales,Opex: Salaries,2026-09,208692.93,216235.32
+Retail Sales,Revenue,2025-04,650000.0,669371.85
+Retail Sales,Revenue,2025-05,656500.0,651053.77
+Retail Sales,Revenue,2025-06,663065.0,688832.58
+Retail Sales,Revenue,2025-07,669695.65,730893.64
+Retail Sales,Revenue,2025-08,676392.61,666889.83
+Retail Sales,Revenue,2025-09,683156.53,673559.4
+Retail Sales,Revenue,2025-10,689988.1,755366.38
+Retail Sales,Revenue,2025-11,696887.98,728976.94
+Retail Sales,Revenue,2025-12,703856.86,684030.29
+Retail Sales,Revenue,2026-01,710895.43,734037.63
+Retail Sales,Revenue,2026-02,718004.38,698040.23
+Retail Sales,Revenue,2026-03,725184.43,704920.03
+Retail Sales,Revenue,2026-04,732436.27,743069.59
+Retail Sales,Revenue,2026-05,739760.63,654838.47
+Retail Sales,Revenue,2026-06,747158.24,669831.04
+Retail Sales,Revenue,2026-07,754629.82,729170.68
+Retail Sales,Revenue,2026-08,762176.12,715858.78
+Retail Sales,Revenue,2026-09,769797.88,784312.3

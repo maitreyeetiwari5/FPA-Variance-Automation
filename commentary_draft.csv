@@ -1,0 +1,70 @@
+business_unit,line_item,month,commentary,has_known_driver
+Customer Support,COGS,2026-02-01,COGS in Customer Support was 10% over budget; 17% above trend forecast in February 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Customer Support,Opex: Marketing,2025-07-01,Opex: Marketing in Customer Support was 33% under budget in July 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Customer Support,Opex: Marketing,2025-09-01,Opex: Marketing in Customer Support was 52% above trend forecast in September 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Customer Support,Opex: Marketing,2025-10-01,Opex: Marketing in Customer Support was 42% above trend forecast in October 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Customer Support,Opex: Marketing,2026-02-01,Opex: Marketing in Customer Support was 48% over budget; 42% above trend forecast in February 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Customer Support,Opex: Salaries,2026-01-01,Opex: Salaries in Customer Support was 25% over budget; 26% above trend forecast in January 2026. Driver: overtime surge covering holiday-period ticket volume.,True
+Customer Support,Opex: Salaries,2026-02-01,Opex: Salaries in Customer Support was 11% below trend forecast in February 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Customer Support,Opex: Salaries,2026-03-01,Opex: Salaries in Customer Support was 8% below trend forecast in March 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Customer Support,Opex: Salaries,2026-04-01,Opex: Salaries in Customer Support was 9% below trend forecast in April 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Customer Support,Opex: Salaries,2026-07-01,Opex: Salaries in Customer Support was 8% above trend forecast in July 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Customer Support,Revenue,2025-09-01,Revenue in Customer Support was 12% below trend forecast in September 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Customer Support,Revenue,2025-12-01,Revenue in Customer Support was 11% above trend forecast in December 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Customer Support,Revenue,2026-02-01,Revenue in Customer Support was 12% under budget in February 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Customer Support,Revenue,2026-05-01,Revenue in Customer Support was 14% above trend forecast in May 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Digital Products,COGS,2025-11-01,COGS in Digital Products was 9% above trend forecast in November 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Digital Products,COGS,2026-01-01,COGS in Digital Products was 12% above trend forecast in January 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Digital Products,COGS,2026-07-01,COGS in Digital Products was 9% above trend forecast in July 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Digital Products,Headcount Cost,2025-10-01,Headcount Cost in Digital Products was 8% below trend forecast in October 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Digital Products,Headcount Cost,2026-03-01,Headcount Cost in Digital Products was 15% over budget; 14% above trend forecast in March 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Digital Products,Opex: Marketing,2026-04-01,Opex: Marketing in Digital Products was 30% over budget; 30% above trend forecast in April 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Digital Products,Opex: Other,2026-03-01,Opex: Other in Digital Products was 20% above trend forecast in March 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Digital Products,Opex: Salaries,2026-09-01,Opex: Salaries in Digital Products was 7% over budget; 8% above trend forecast in September 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Digital Products,Revenue,2025-06-01,Revenue in Digital Products was 12% under budget in June 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Digital Products,Revenue,2025-09-01,Revenue in Digital Products was 15% over budget; 22% above trend forecast in September 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Digital Products,Revenue,2026-02-01,"Revenue in Digital Products was 20% under budget; 17% below trend forecast in February 2026. Driver: product launch delayed to next quarter, revenue recognition pushed out.",True
+Digital Products,Revenue,2026-03-01,Revenue in Digital Products was 17% above trend forecast in March 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Digital Products,Revenue,2026-04-01,Revenue in Digital Products was 15% above trend forecast in April 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Digital Products,Revenue,2026-09-01,Revenue in Digital Products was 13% over budget; 14% above trend forecast in September 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Enterprise Services,COGS,2025-04-01,COGS in Enterprise Services was 11% over budget in April 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Enterprise Services,COGS,2025-06-01,COGS in Enterprise Services was 10% under budget in June 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Enterprise Services,COGS,2025-09-01,COGS in Enterprise Services was 11% above trend forecast in September 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Enterprise Services,COGS,2026-06-01,COGS in Enterprise Services was 9% over budget; 13% above trend forecast in June 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Enterprise Services,Headcount Cost,2026-04-01,"Headcount Cost in Enterprise Services was 25% under budget; 24% below trend forecast in April 2026. Driver: planned hiring freeze on two open reqs, deferred to next fiscal year.",True
+Enterprise Services,Headcount Cost,2026-05-01,Headcount Cost in Enterprise Services was 9% above trend forecast in May 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Enterprise Services,Headcount Cost,2026-06-01,Headcount Cost in Enterprise Services was 12% above trend forecast in June 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Enterprise Services,Headcount Cost,2026-07-01,Headcount Cost in Enterprise Services was 13% above trend forecast in July 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Enterprise Services,Headcount Cost,2026-09-01,Headcount Cost in Enterprise Services was 8% over budget; 10% above trend forecast in September 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Enterprise Services,Opex: Marketing,2025-04-01,Opex: Marketing in Enterprise Services was 34% over budget in April 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Enterprise Services,Opex: Marketing,2026-02-01,Opex: Marketing in Enterprise Services was 47% under budget; 47% below trend forecast in February 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Enterprise Services,Opex: Marketing,2026-06-01,Opex: Marketing in Enterprise Services was 43% above trend forecast in June 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Enterprise Services,Opex: Salaries,2026-07-01,Opex: Salaries in Enterprise Services was 7% below trend forecast in July 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Enterprise Services,Revenue,2025-08-01,Revenue in Enterprise Services was 14% over budget; 18% above trend forecast in August 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Enterprise Services,Revenue,2025-09-01,Revenue in Enterprise Services was 11% under budget; 13% below trend forecast in September 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Enterprise Services,Revenue,2026-01-01,Revenue in Enterprise Services was 12% above trend forecast in January 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Logistics,COGS,2026-01-01,COGS in Logistics was 10% above trend forecast in January 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Logistics,Headcount Cost,2025-10-01,Headcount Cost in Logistics was 8% over budget; 8% above trend forecast in October 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Logistics,Headcount Cost,2026-09-01,Headcount Cost in Logistics was 8% under budget in September 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Logistics,Opex: Marketing,2026-06-01,Opex: Marketing in Logistics was 34% over budget in June 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Logistics,Opex: Other,2025-08-01,Opex: Other in Logistics was 22% below trend forecast in August 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Logistics,Opex: Other,2025-09-01,"Opex: Other in Logistics was 60% over budget; 62% above trend forecast in September 2025. Driver: fuel cost spike, regional supplier surcharge.",True
+Logistics,Opex: Other,2025-12-01,Opex: Other in Logistics was 20% below trend forecast in December 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Logistics,Opex: Other,2026-09-01,Opex: Other in Logistics was 21% above trend forecast in September 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Logistics,Opex: Salaries,2025-08-01,Opex: Salaries in Logistics was 7% under budget in August 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Logistics,Opex: Salaries,2026-07-01,Opex: Salaries in Logistics was 8% above trend forecast in July 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Logistics,Revenue,2026-02-01,Revenue in Logistics was 11% above trend forecast in February 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Retail Sales,COGS,2026-05-01,COGS in Retail Sales was 9% over budget; 14% above trend forecast in May 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Retail Sales,Headcount Cost,2026-08-01,Headcount Cost in Retail Sales was 8% over budget; 10% above trend forecast in August 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Retail Sales,Opex: Marketing,2025-08-01,Opex: Marketing in Retail Sales was 32% above trend forecast in August 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Retail Sales,Opex: Marketing,2025-11-01,Opex: Marketing in Retail Sales was 45% over budget; 38% above trend forecast in November 2025. Driver: Q4 campaign spend pulled forward ahead of holiday promotion.,True
+Retail Sales,Opex: Marketing,2025-12-01,Opex: Marketing in Retail Sales was 31% below trend forecast in December 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Retail Sales,Opex: Marketing,2026-03-01,Opex: Marketing in Retail Sales was 34% above trend forecast in March 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Retail Sales,Opex: Marketing,2026-06-01,"Opex: Marketing in Retail Sales was 30% over budget; 31% above trend forecast in June 2026. Driver: mid-year brand campaign overspend, approved as one-off by marketing lead.",True
+Retail Sales,Opex: Other,2025-05-01,Opex: Other in Retail Sales was 17% over budget in May 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Retail Sales,Opex: Other,2025-06-01,Opex: Other in Retail Sales was 25% under budget in June 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Retail Sales,Opex: Other,2025-11-01,Opex: Other in Retail Sales was 19% under budget; 19% below trend forecast in November 2025. Driver: pending analyst review — no known one-off cause on file.,False
+Retail Sales,Opex: Other,2026-02-01,Opex: Other in Retail Sales was 23% above trend forecast in February 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Retail Sales,Opex: Other,2026-06-01,Opex: Other in Retail Sales was 17% above trend forecast in June 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Retail Sales,Revenue,2026-05-01,Revenue in Retail Sales was 11% under budget in May 2026. Driver: pending analyst review — no known one-off cause on file.,False
+Retail Sales,Revenue,2026-09-01,Revenue in Retail Sales was 11% above trend forecast in September 2026. Driver: pending analyst review — no known one-off cause on file.,False
