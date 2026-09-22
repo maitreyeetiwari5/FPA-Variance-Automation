@@ -4,7 +4,7 @@ An end-to-end FP&A automation prototype: rolling forecasts, self-calibrating var
 
 **[Live dashboard](https://your-github-pages-url/)** - filter by business unit and line item to see the forecast, flagged variances, and drafted commentary update together.
 
-**[Excel workbook](fpa_variance_analysis.xlsx)**-— the same analysis as a 3-sheet report (Summary, Variance Detail, Action Items) for anyone who wants it in Excel.
+**[Excel workbook](fpa_variance_analysis.xlsx)**- the same analysis as a 3-sheet report (Summary, Variance Detail, Action Items) for anyone who wants it in Excel.
 
 ## Problem
 
