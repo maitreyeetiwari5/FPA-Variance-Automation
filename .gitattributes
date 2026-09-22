@@ -1,2 +1,7 @@
 docs/index.html linguist-generated=true
+docs/index.html linguist-vendored=true
+docs/index.html linguist-documentation=true
+dashboard_template.html linguist-generated=true
 dashboard_template.html linguist-vendored=true
+*.csv linguist-vendored=true
+*.xlsx linguist-vendored=true
