@@ -16,8 +16,8 @@ actually hand to a segment finance lead for the monthly close review.
 import pandas as pd
 from event_log import load_event_log
 
-FLAGGED_PATH = "/home/claude/fpa_project/flagged_variances.csv"
-OUT_PATH = "/home/claude/fpa_project/commentary_draft.csv"
+FLAGGED_PATH = "flagged_variances.csv"
+OUT_PATH = "commentary_draft.csv"
 
 def format_month(m: str) -> str:
     return pd.to_datetime(m).strftime("%B %Y")
@@ -41,7 +41,7 @@ def build_commentary(row, event_log: pd.DataFrame) -> str:
         driver = match.iloc[0]["driver"]
         return f"{base} Driver: {driver}."
     else:
-        return f"{base} Driver: pending analyst review — no known one-off cause on file."
+        return f"{base} Driver: pending analyst review - no known one-off cause on file."
 
 def generate(flagged: pd.DataFrame) -> pd.DataFrame:
     event_log = load_event_log()

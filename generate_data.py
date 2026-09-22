@@ -98,7 +98,7 @@ def generate():
 
 if __name__ == "__main__":
     df = generate()
-    out_path = "/home/claude/fpa_project/budget_vs_actuals.csv"
+    out_path = "budget_vs_actuals.csv"
     df.to_csv(out_path, index=False)
     print(f"Wrote {len(df)} rows to {out_path}")
     print(df.head(12).to_string(index=False))

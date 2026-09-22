@@ -18,8 +18,8 @@ budget/actual variance.
 
 import pandas as pd
 
-IN_PATH = "/home/claude/fpa_project/budget_vs_actuals.csv"
-OUT_PATH = "/home/claude/fpa_project/forecast_vs_actual.csv"
+IN_PATH = "budget_vs_actuals.csv"
+OUT_PATH = "forecast_vs_actual.csv"
 
 WINDOW = 3  # trailing months used for the moving average
 
@@ -31,10 +31,14 @@ def build_forecast(df: pd.DataFrame) -> pd.DataFrame:
     # Forecast for month t = mean of actuals in the WINDOW months strictly
     # before t, computed independently within each (business_unit, line_item)
     # series so history never leaks across series.
-    df["forecast"] = (
-        df.groupby(["business_unit", "line_item"])["actual"]
-        .apply(lambda s: s.shift(1).rolling(window=WINDOW, min_periods=WINDOW).mean())
-        .reset_index(drop=True)
+    #
+    # transform() (not groupby().apply()+reset_index(drop=True)) guarantees
+    # the result stays aligned to df's original index — apply() returns a
+    # Series ordered by group key, and reset_index(drop=True) would then
+    # assign values back positionally, silently mismatching rows if group
+    # order ever diverged from row order.
+    df["forecast"] = df.groupby(["business_unit", "line_item"])["actual"].transform(
+        lambda s: s.shift(1).rolling(window=WINDOW, min_periods=WINDOW).mean()
     )
 
     df["variance_vs_budget"] = df["actual"] - df["budget"]

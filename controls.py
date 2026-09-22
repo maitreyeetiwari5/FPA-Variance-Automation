@@ -22,8 +22,8 @@ back to a specific metric, not a blended score.
 
 import pandas as pd
 
-IN_PATH = "/home/claude/fpa_project/forecast_vs_actual.csv"
-OUT_PATH = "/home/claude/fpa_project/flagged_variances.csv"
+IN_PATH = "forecast_vs_actual.csv"
+OUT_PATH = "flagged_variances.csv"
 
 # Materiality thresholds per line item (absolute % variance)
 #

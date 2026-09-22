@@ -27,7 +27,7 @@ being a useful control and starts being noise itself.
 import pandas as pd
 import numpy as np
 
-FORECAST_PATH = "/home/claude/fpa_project/forecast_vs_actual.csv"
+FORECAST_PATH = "forecast_vs_actual.csv"
 
 ORIGINAL_THRESHOLDS = {
     "Revenue":          0.05,
@@ -69,5 +69,5 @@ if __name__ == "__main__":
     df = pd.read_csv(FORECAST_PATH)
     table = calibrate(df)
     print(table.to_string(index=False))
-    table.to_csv("/home/claude/fpa_project/threshold_calibration.csv", index=False)
+    table.to_csv("threshold_calibration.csv", index=False)
     print("\nWrote threshold_calibration.csv")

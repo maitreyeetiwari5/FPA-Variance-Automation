@@ -23,7 +23,7 @@ from dateutil.relativedelta import relativedelta
 
 from calibrate_thresholds import mad_scaled, ORIGINAL_THRESHOLDS, FLOOR
 
-FORECAST_PATH = "/home/claude/fpa_project/forecast_vs_actual.csv"
+FORECAST_PATH = "forecast_vs_actual.csv"
 START_MONTH = date(2025, 4, 1)
 
 # Mirrors EVENT_MONTHS in generate_data.py — converted from month index to

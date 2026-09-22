@@ -1,7 +1,10 @@
 """
-Builds dashboard/index.html by merging forecast_vs_actual.csv and
+Builds docs/index.html by merging forecast_vs_actual.csv and
 flagged_variances.csv + commentary into a single JSON payload, then
-injecting it into dashboard/dashboard_template.html.
+injecting it into dashboard_template.html (repo root).
+
+Output goes to docs/ because GitHub Pages only serves from the repo
+root or a folder named exactly "docs" — see README for the Pages setup.
 
 Run after the full pipeline (generate_data.py -> forecast.py ->
 calibrate_thresholds.py / validate_thresholds.py -> controls.py ->
@@ -55,9 +58,11 @@ def build():
 
 if __name__ == "__main__":
     payload = build()
-    with open("dashboard/dashboard_template.html") as f:
+    with open("dashboard_template.html") as f:
         tpl = f.read()
     final = tpl.replace("__DATA_JSON__", json.dumps(payload))
-    with open("dashboard/index.html", "w") as f:
+    import os
+    os.makedirs("docs", exist_ok=True)
+    with open("docs/index.html", "w") as f:
         f.write(final)
-    print(f"Wrote dashboard/index.html ({len(final)} bytes)")
+    print(f"Wrote docs/index.html ({len(final)} bytes)")
