@@ -1,4 +1,4 @@
-# Finance Forecast and Variance Automation
+# Finance Forecast & Variance Automation
 
 An end-to-end FP&A automation prototype: rolling forecasts, self-calibrating variance thresholds, and auto-drafted close commentary built to demonstrate what automating the mechanical parts of monthly variance review looks like, without faking the parts that need human judgment.
 
