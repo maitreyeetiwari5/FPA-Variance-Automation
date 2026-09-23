@@ -6,6 +6,8 @@ An end-to-end FP&A automation prototype: rolling forecasts, self-calibrating var
 
 **[Excel workbook](fpa_variance_analysis.xlsx)** - the same analysis as a 3-sheet report (Summary, Variance Detail, Action Items) for anyone who wants it in Excel.
 
+A domain-specific extension of this pipeline - forecasting real US mutual fund flows instead of synthetic budget data — lives at [Fund-Flow-Forecasting](https://github.com/maitreyeetiwari5/fund-flow-forecasting).
+
 ## Problem
 
 Monthly variance review doesn't scale by adding headcount. Reviewing budget-vs-actual across dozens of line items each month means either hours of manual scanning, or a single flat threshold that over-flags noisy categories (campaign-driven marketing spend) while missing real issues in stable ones (salaries, where even a small deviation matters).
