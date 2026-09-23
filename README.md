@@ -6,7 +6,7 @@ An end-to-end FP&A automation prototype: rolling forecasts, self-calibrating var
 
 **[Excel workbook](fpa_variance_analysis.xlsx)** - the same analysis as a 3-sheet report (Summary, Variance Detail, Action Items) for anyone who wants it in Excel.
 
-A domain-specific extension of this pipeline - forecasting real US mutual fund flows instead of synthetic budget data — lives at [Fund-Flow-Forecasting](https://github.com/maitreyeetiwari5/fund-flow-forecasting).
+A domain-specific extension of this pipeline - forecasting real US mutual fund flows instead of synthetic budget data — lives at [Fund Flow Forecasting project](https://github.com/maitreyeetiwari5/fund-flow-forecasting).
 
 ## Problem
 
